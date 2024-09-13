@@ -1,0 +1,987 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hospital-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">hospital-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  LandingComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/landing/landing.component.ts</code>
+</p>
+
+
+
+
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-landing</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./landing.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./landing.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_isLoggedIn" >_isLoggedIn</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#isLoggedIn" >isLoggedIn</a>
+                            </li>
+                            <li>
+                                <a href="#logoutUser" >logoutUser</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(http: HttpClient, route: ActivatedRoute, router: Router, authService: <a href="../injectables/AuthService.html" target="_self">AuthService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/landing/landing.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                    <code>HttpClient</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                    <code>ActivatedRoute</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                    <code>Router</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isLoggedIn"></a>
+                    <span class="name">
+                        <span ><b>isLoggedIn</b></span>
+                        <a href="#isLoggedIn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isLoggedIn()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/landing/landing.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="logoutUser"></a>
+                    <span class="name">
+                        <span ><b>logoutUser</b></span>
+                        <a href="#logoutUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>logoutUser()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/landing/landing.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="27"
+                            class="link-to-prism">src/app/landing/landing.component.ts:27</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_isLoggedIn"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>_isLoggedIn</b></span>
+                        <a href="#_isLoggedIn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/landing/landing.component.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+import { AuthService } from &#x27;../auth.service&#x27;;
+import { ActivatedRoute, Router } from &#x27;@angular/router&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+
+@Component({
+  selector: &#x27;app-landing&#x27;,
+  templateUrl: &#x27;./landing.component.html&#x27;,
+  styleUrls: [&#x27;./landing.component.css&#x27;]
+})
+export class LandingComponent {
+
+  private _isLoggedIn: boolean &#x3D; false; // private backing field for isLoggedIn
+
+  constructor(
+    private http: HttpClient,
+    private route: ActivatedRoute,
+    private router: Router,
+    private authService: AuthService
+  ) {
+    const token &#x3D; localStorage.getItem(&#x27;token&#x27;);
+    if (token) {
+      this._isLoggedIn &#x3D; true;
+    }
+  }
+
+  ngOnInit(): void {
+    // Check if the user is logged in
+    if (this.authService.isLoggedIn()) {
+      const userId &#x3D; this.authService.getUserId(); // Retrieve the userId from the service
+
+      // Navigate to the restaurant component only if it&#x27;s the initial navigation after login
+      if (!this.route.snapshot.queryParams[&#x27;userId&#x27;]) {
+        this.router.navigate([&#x27;/&#x27;], { queryParams: { userId } });
+        return; // Return early to prevent executing the code below
+      }
+    }
+  }
+  isLoggedIn(): boolean {
+    const token &#x3D; localStorage.getItem(&#x27;token&#x27;);
+    return !!token;
+  }
+
+  // isLoggedIn(): boolean {
+  //   return this.authService.isLoggedIn();
+  // }
+
+  logoutUser(): void {
+    this.authService.logout();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang&#x3D;&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset&#x3D;&quot;UTF-8&quot; /&gt;
+    &lt;meta name&#x3D;&quot;viewport&quot; content&#x3D;&quot;width&#x3D;device-width, initial-scale&#x3D;1.0&quot; /&gt;
+    &lt;meta http-equiv&#x3D;&quot;X-UA-Compatible&quot; content&#x3D;&quot;ie&#x3D;edge&quot; /&gt;
+    &lt;title&gt;Hospital Management App&lt;/title&gt;
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css&quot; /&gt;
+    &lt;!-- Fontawesome CSS --&gt;
+    &lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; /&gt;
+    &lt;link href&#x3D;&quot;https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css&quot; rel&#x3D;&quot;stylesheet&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body &gt;
+
+    &lt;div class&#x3D;&quot;jumbotron jumbotron-fluid my-5 p-3&quot;&gt;
+
+        &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+                &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+                    &lt;div class&#x3D;&quot;container p-5&quot;&gt;
+                        &lt;h3 class&#x3D;&quot;display-4&quot;&gt;Welcome to Hospital Management App &lt;i class&#x3D;&quot;fas fa-hospital&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+                        &lt;p class&#x3D;&quot;lead&quot;&gt;Manage your hospital operations efficiently! &lt;i class&#x3D;&quot;fas fa-clipboard-list&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+                        &lt;a class&#x3D;&quot;btn btn-primary btn-lg animated bounce&quot; routerLink&#x3D;&quot;/book&quot; role&#x3D;&quot;button&quot;&gt;Book Your Appointemnt Now &lt;i class&#x3D;&quot;fas fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+                    &lt;div class&#x3D;&quot;text-center&quot;&gt;
+                        &lt;img src&#x3D;&quot;../../assets/undraw_medical_care_movn.svg&quot; alt&#x3D;&quot;Hospital Management&quot; class&#x3D;&quot;img-fluid&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;container-fluid  p-5&quot; style&#x3D;&quot;background-color: aliceblue;&quot;&gt;
+        &lt;div class&#x3D;&quot;row d-flex justify-content-center align-items-center&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                &lt;h2&gt;&lt;i class&#x3D;&quot;fas fa-users&quot;&gt;&lt;/i&gt; Patient Management&lt;/h2&gt;
+                &lt;p&gt;Efficiently manage patient records, appointments, and medical history.&lt;/p&gt;
+                &lt;a class&#x3D;&quot;btn btn-secondary&quot; routerLink&#x3D;&quot;/patientdashboard&quot; role&#x3D;&quot;button&quot;&gt;Login to Patients Dashboard &lt;i class&#x3D;&quot;fas fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                &lt;h2&gt;&lt;i class&#x3D;&quot;fas fa-user-md&quot;&gt;&lt;/i&gt; Doctor Profiles&lt;/h2&gt;
+                &lt;p&gt;View profiles of skilled doctors and their areas of expertise.&lt;/p&gt;
+                &lt;a class&#x3D;&quot;btn btn-secondary&quot; routerLink&#x3D;&quot;/doctordashboard&quot; role&#x3D;&quot;button&quot;&gt;Login to Doctor Dashboard&lt;i class&#x3D;&quot;fas fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                &lt;h2&gt;&lt;i class&#x3D;&quot;fas fa-calendar-check&quot;&gt;&lt;/i&gt; Appointment Scheduling&lt;/h2&gt;
+                &lt;p&gt;Effortlessly schedule and manage appointments with doctors.&lt;/p&gt;
+                &lt;a class&#x3D;&quot;btn btn-secondary&quot; routerLink&#x3D;&quot;/book&quot; role&#x3D;&quot;button&quot;&gt;Schedule Appointments &lt;i class&#x3D;&quot;fas fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;container-fluid&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-12 text-center&quot;&gt;
+                &lt;app-about&gt;&lt;/app-about&gt;
+                &lt;!-- Add testimonial section here --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;container-fluid&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;col-md-12 text-center&quot;&gt;
+                &lt;app-contact&gt;&lt;/app-contact&gt;
+                &lt;!-- Add contact form or contact information here --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+    &lt;!-- Bootstrap JS --&gt;
+    &lt;script src&#x3D;&quot;https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./landing.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.process-ion span {
+  font-size: 3rem;
+}
+
+
+/* Animations */
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -30px, 0);
+  }
+  70% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -15px, 0);
+  }
+  90% {
+      transform: translate3d(0, -4px, 0);
+  }
+}
+
+
+/* Styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+  background-image: linear-gradient(to bottom right, #ffffff, #f1f1f1);
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: #1b6ec2;
+  border-color: #1b6ec2;
+  font-size: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  font-size: 1.25rem;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.col-md-4 h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.col-md-4 p {
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 4rem 0;
+}
+
+.container-fluid .col-md-4 {
+  padding: 1rem;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.cv-caption {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.cv-caption h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cv-caption p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text-light {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-tittle {
+  margin-bottom: 4rem;
+}
+
+.section-tittle h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.single-process {
+  margin-bottom: 3rem;
+}
+
+.single-process .process-ion {
+  display: inline-block;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: #1b6ec2;
+}
+
+.single-process h5 {
+  font-size: 2rem;
+}
+
+
+/* Animate buttons on hover */
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  animation: pulse 1s infinite;
+}
+
+
+/* Define pulse animation */
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+
+/* Style Jumbotron */
+
+
+/* .jumbotron {
+  background-image: url(&quot;https://source.unsplash.com/random/1920x1080/?blue&quot;);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+} */
+
+
+/* .jumbotron h1 {
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px #333;
+} */
+
+
+/* Style col-md-4 elements */
+
+.col-md-4 h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.col-md-4 p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.col-md-4 a {
+  font-size: 1.2rem;
+}
+
+
+/* Style container-fluid images */
+
+.container-fluid img {
+  margin-top: 2rem;
+}
+
+
+/* Style online CV area */
+
+.cv-caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv-caption p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Style how apply process area */
+
+.section-tittle h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.single-process {
+  padding: 50px 40px;
+}
+
+.single-process .process-ion {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.single-process h5 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.single-process p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .jumbotron h1 {
+      font-size: 2.5rem;
+  }
+  .jumbotron p {
+      font-size: 1rem;
+  }
+  .col-md-4 h2 {
+      font-size: 1.5rem;
+  }
+  .col-md-4 p {
+      font-size: 1rem;
+  }
+  .col-md-4 a {
+      font-size: 1rem;
+  }
+  .cv-caption h2 {
+      font-size: 2rem;
+  }
+  .cv-caption p {
+      font-size: 1rem;
+  }
+  .section-tittle h2 {
+      font-size: 2.5rem;
+  }
+  .single-process {
+      padding: 30px 20px;
+  }
+  .single-process .process-ion {
+      font-size: 40px;
+  }
+  .single-process h5 {
+      font-size: 1.5rem;
+  }
+  .single-process p {
+      font-size: 1rem;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <meta http-equiv="X-UA-Compatible" content="ie=edge" />    <title>Hospital Management App</title>    <!-- Bootstrap CSS -->    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />    <!-- Fontawesome CSS -->    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"></head><body >    <div class="jumbotron jumbotron-fluid my-5 p-3">        <div class="col-md-12">            <div class="row">                <div class="col-md-6">                    <div class="container p-5">                        <h3 class="display-4">Welcome to Hospital Management App <i class="fas fa-hospital"></i></h3>                        <p class="lead">Manage your hospital operations efficiently! <i class="fas fa-clipboard-list"></i></p>                        <a class="btn btn-primary btn-lg animated bounce" routerLink="/book" role="button">Book Your Appointemnt Now <i class="fas fa-angle-right"></i></a>                    </div>                </div>                <div class="col-md-6">                    <div class="text-center">                        <img src="../../assets/undraw_medical_care_movn.svg" alt="Hospital Management" class="img-fluid">                    </div>                </div>            </div>        </div>    </div>    <div class="container-fluid  p-5" style="background-color: aliceblue;">        <div class="row d-flex justify-content-center align-items-center">            <div class="col-md-4">                <h2><i class="fas fa-users"></i> Patient Management</h2>                <p>Efficiently manage patient records, appointments, and medical history.</p>                <a class="btn btn-secondary" routerLink="/patientdashboard" role="button">Login to Patients Dashboard <i class="fas fa-angle-right"></i></a>            </div>            <div class="col-md-4">                <h2><i class="fas fa-user-md"></i> Doctor Profiles</h2>                <p>View profiles of skilled doctors and their areas of expertise.</p>                <a class="btn btn-secondary" routerLink="/doctordashboard" role="button">Login to Doctor Dashboard<i class="fas fa-angle-right"></i></a>            </div>            <div class="col-md-4">                <h2><i class="fas fa-calendar-check"></i> Appointment Scheduling</h2>                <p>Effortlessly schedule and manage appointments with doctors.</p>                <a class="btn btn-secondary" routerLink="/book" role="button">Schedule Appointments <i class="fas fa-angle-right"></i></a>            </div>        </div>    </div>    <div class="container-fluid">        <div class="row">            <div class="col-md-12 text-center">                <app-about></app-about>                <!-- Add testimonial section here -->            </div>        </div>    </div>    <div class="container-fluid">        <div class="row">            <div class="col-md-12 text-center">                <app-contact></app-contact>                <!-- Add contact form or contact information here -->            </div>        </div>    </div>    <!-- Bootstrap JS -->    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script></body></html></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentBookingComponent', 'selector': 'app-appointment-booking'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'DoctorDashboardComponent', 'selector': 'app-doctor-dashboard'},{'name': 'LandingComponent', 'selector': 'app-landing'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'PatientDashboardComponent', 'selector': 'app-patient-dashboard'},{'name': 'PrescriptionFormComponent', 'selector': 'app-prescription-form'},{'name': 'RegistrationComponent', 'selector': 'app-registration'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'LandingComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'LandingComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,693 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hospital-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">hospital-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  AppointmentBookingComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/appointment-booking/appointment-booking.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code>OnInit</code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-appointment-booking</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./appointment-booking.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./appointment-booking.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#bookingForm" >bookingForm</a>
+                            </li>
+                            <li>
+                                <a href="#bsConfig" >bsConfig</a>
+                            </li>
+                            <li>
+                                <a href="#doctors" >doctors</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#bookAppointment" >bookAppointment</a>
+                            </li>
+                            <li>
+                                <a href="#isLoggedIn" >isLoggedIn</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(formBuilder: FormBuilder, appointmentService: <a href="../injectables/AppointmentService.html" target="_self">AppointmentService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>formBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code>FormBuilder</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>appointmentService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AppointmentService.html" target="_self" >AppointmentService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="bookAppointment"></a>
+                    <span class="name">
+                        <span ><b>bookAppointment</b></span>
+                        <a href="#bookAppointment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>bookAppointment()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="52"
+                            class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:52</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isLoggedIn"></a>
+                    <span class="name">
+                        <span ><b>isLoggedIn</b></span>
+                        <a href="#isLoggedIn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isLoggedIn()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="74"
+                            class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:74</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="bookingForm"></a>
+                    <span class="name">
+                        <span ><b>bookingForm</b></span>
+                        <a href="#bookingForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>FormGroup</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="bsConfig"></a>
+                    <span class="name">
+                        <span ><b>bsConfig</b></span>
+                        <a href="#bsConfig"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Partial&lt;BsDatepickerConfig&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="doctors"></a>
+                    <span class="name">
+                        <span ><b>doctors</b></span>
+                        <a href="#doctors"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Doctor[] | any</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/appointment-booking/appointment-booking.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { FormBuilder, FormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import { AppointmentService } from &#x27;../appointment.service&#x27;;
+import { Appointment } from &#x27;../Appointment&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import { BsDatepickerConfig } from &#x27;ngx-bootstrap/datepicker&#x27;;
+
+export interface Doctor {
+  _id: string;
+  name: string;
+  specialization: string;
+  contact: string;
+  // Other doctor fields
+}
+
+
+@Component({
+  selector: &#x27;app-appointment-booking&#x27;,
+  templateUrl: &#x27;./appointment-booking.component.html&#x27;,
+  styleUrls: [&#x27;./appointment-booking.component.css&#x27;]
+})
+export class AppointmentBookingComponent implements OnInit {
+  bookingForm: FormGroup;
+  doctors: Doctor[]|any; // Define an Observable to hold the list of doctors
+  bsConfig: Partial&lt;BsDatepickerConfig&gt;; // Partial type to customize the datepicker configuration
+
+
+
+  constructor(private formBuilder: FormBuilder, private appointmentService: AppointmentService) {
+    this.bookingForm &#x3D; this.formBuilder.group({
+      name: [&#x27;&#x27;, Validators.required],
+      doctor: [&#x27;&#x27;, Validators.required],
+      timeSlot: [&#x27;&#x27;, Validators.required]
+    });
+    this.bsConfig &#x3D; {
+      showWeekNumbers: false,
+      containerClass: &#x27;theme-default&#x27;, // Optional CSS class for the datepicker container
+      dateInputFormat: &#x27;YYYY-MM-DDTHH:mm:ss&#x27; // Date format for the selected value
+    };
+  }
+
+  ngOnInit() {
+    this.bookingForm &#x3D; this.formBuilder.group({
+      name: [&#x27;&#x27;, Validators.required],
+      doctor: [&#x27;&#x27;, Validators.required],
+      timeSlot: [&#x27;&#x27;, Validators.required]
+    });
+
+    this.doctors &#x3D; this.appointmentService.getDoctorsByDoctorName(this.doctors); // Fetch the list of doctors by name
+  }
+
+  bookAppointment() {
+    if (this.bookingForm.invalid) {
+      return;
+    }
+
+    const appointmentData &#x3D; this.bookingForm.value;
+    const appointment: Appointment &#x3D; { ...appointmentData };
+
+    this.appointmentService.bookAppointment(appointment)
+      .subscribe(
+        (response: any) &#x3D;&gt; {
+          alert(&quot;Appointment booked successfully&quot;);
+          console.log(&#x27;Appointment booked successfully&#x27;, response);
+          // Reset the form or perform any other necessary actions
+        },
+        (error: any) &#x3D;&gt; {
+          console.error(&#x27;Failed to book appointment&#x27;, error);
+          // Handle error appropriately
+        }
+      );
+  }
+
+  isLoggedIn(): boolean {
+    const token &#x3D; localStorage.getItem(&#x27;token&#x27;);
+    return !!token;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container mt-5&quot; *ngIf&#x3D;&quot;isLoggedIn()&quot;&gt;
+  &lt;h1 class&#x3D;&quot;stylish-heading text-center mb-3&quot;&gt;Schedule Your Appointment with Ease&lt;/h1&gt;
+&lt;form [formGroup]&#x3D;&quot;bookingForm&quot; (ngSubmit)&#x3D;&quot;bookAppointment()&quot; class&#x3D;&quot;appointment-form&quot;&gt;
+  &lt;div class&#x3D;&quot;form-group&quot;&gt;
+    &lt;label for&#x3D;&quot;name&quot;&gt;&lt;i class&#x3D;&quot;bi bi-person-fill&quot;&gt;&lt;/i&gt; Patient Name:&lt;/label&gt;
+    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name&quot; formControlName&#x3D;&quot;name&quot; class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;Enter Patient Name&quot;&gt;
+    &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;name&#x27;].invalid &amp;&amp; bookingForm.controls[&#x27;name&#x27;].touched&quot; class&#x3D;&quot;error-message&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;name&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;Name is required&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;form-group&quot;&gt;
+    &lt;label for&#x3D;&quot;doctor&quot;&gt;&lt;i class&#x3D;&quot;bi bi-person-fill&quot;&gt;&lt;/i&gt; Doctor:&lt;/label&gt;
+    &lt;select id&#x3D;&quot;doctor&quot; formControlName&#x3D;&quot;doctor&quot; class&#x3D;&quot;form-control&quot;&gt;
+      &lt;option value&#x3D;&quot;&quot;&gt;Select Doctor&lt;/option&gt;
+      &lt;option *ngFor&#x3D;&quot;let doctor of doctors | async&quot; [value]&#x3D;&quot;doctor.name&quot;&gt;{{ doctor.name }}&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;doctor&#x27;].invalid &amp;&amp; bookingForm.controls[&#x27;doctor&#x27;].touched&quot; class&#x3D;&quot;error-message&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;doctor&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;Doctor is required&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;form-group&quot;&gt;
+    &lt;label for&#x3D;&quot;timeSlot&quot;&gt;&lt;i class&#x3D;&quot;bi bi-clock-fill&quot;&gt;&lt;/i&gt; Date/Time Slot:&lt;/label&gt;
+    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;timeSlot&quot; formControlName&#x3D;&quot;timeSlot&quot; class&#x3D;&quot;form-control&quot;
+           [bsConfig]&#x3D;&quot;bsConfig&quot; bsDatepicker placeholder&#x3D;&quot;YYYY-MM-DDThh:mm:ss&quot;&gt; &lt;!-- Use the bsConfig and bsDatepicker directives --&gt;
+    &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;timeSlot&#x27;].invalid &amp;&amp; bookingForm.controls[&#x27;timeSlot&#x27;].touched&quot; class&#x3D;&quot;error-message&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;bookingForm.controls[&#x27;timeSlot&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;Time Slot is required&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button type&#x3D;&quot;submit&quot; [disabled]&#x3D;&quot;bookingForm.invalid&quot; class&#x3D;&quot;btn btn-primary mt-3 mb-5&quot;&gt;&lt;i class&#x3D;&quot;bi bi-calendar-plus&quot;&gt;&lt;/i&gt; Book Appointment&lt;/button&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;alert alert-primary&quot; role&#x3D;&quot;alert&quot; *ngIf&#x3D;&quot;!isLoggedIn()&quot;&gt;
+ Register/Login to Continue Hospital management App
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./appointment-booking.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.form-group{
+  margin: 10px;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container mt-5" *ngIf="isLoggedIn()">  <h1 class="stylish-heading text-center mb-3">Schedule Your Appointment with Ease</h1><form [formGroup]="bookingForm" (ngSubmit)="bookAppointment()" class="appointment-form">  <div class="form-group">    <label for="name"><i class="bi bi-person-fill"></i> Patient Name:</label>    <input type="text" id="name" formControlName="name" class="form-control" placeholder="Enter Patient Name">    <div *ngIf="bookingForm.controls[\'name\'].invalid && bookingForm.controls[\'name\'].touched" class="error-message">      <div *ngIf="bookingForm.controls[\'name\'].hasError(\'required\')">Name is required</div>    </div>  </div>  <div class="form-group">    <label for="doctor"><i class="bi bi-person-fill"></i> Doctor:</label>    <select id="doctor" formControlName="doctor" class="form-control">      <option value="">Select Doctor</option>      <option *ngFor="let doctor of doctors | async" [value]="doctor.name">{{ doctor.name }}</option>    </select>    <div *ngIf="bookingForm.controls[\'doctor\'].invalid && bookingForm.controls[\'doctor\'].touched" class="error-message">      <div *ngIf="bookingForm.controls[\'doctor\'].hasError(\'required\')">Doctor is required</div>    </div>  </div>  <div class="form-group">    <label for="timeSlot"><i class="bi bi-clock-fill"></i> Date/Time Slot:</label>    <input type="text" id="timeSlot" formControlName="timeSlot" class="form-control"           [bsConfig]="bsConfig" bsDatepicker placeholder="YYYY-MM-DDThh:mm:ss"> <!-- Use the bsConfig and bsDatepicker directives -->    <div *ngIf="bookingForm.controls[\'timeSlot\'].invalid && bookingForm.controls[\'timeSlot\'].touched" class="error-message">      <div *ngIf="bookingForm.controls[\'timeSlot\'].hasError(\'required\')">Time Slot is required</div>    </div>  </div>  <button type="submit" [disabled]="bookingForm.invalid" class="btn btn-primary mt-3 mb-5"><i class="bi bi-calendar-plus"></i> Book Appointment</button></form></div><div class="alert alert-primary" role="alert" *ngIf="!isLoggedIn()"> Register/Login to Continue Hospital management App</div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AppointmentBookingComponent', 'selector': 'app-appointment-booking'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'DoctorDashboardComponent', 'selector': 'app-doctor-dashboard'},{'name': 'LandingComponent', 'selector': 'app-landing'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'PatientDashboardComponent', 'selector': 'app-patient-dashboard'},{'name': 'PrescriptionFormComponent', 'selector': 'app-prescription-form'},{'name': 'RegistrationComponent', 'selector': 'app-registration'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AppointmentBookingComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppointmentBookingComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
